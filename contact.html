@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Bakery-Always Fresh Always Delicious</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@200;300;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a458a1e92e.js" crossorigin="anonymous"></script>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="image/MOMS BAKERY Logo - Original - 5000x5000 (1).png" alt=""></a>
+        </div>
+        <div class="nav-container " id="myTopnav">
+            <ul class="unordered">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+          </a>
+
+    </nav>
+   
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-section">
+            <div class="single-contact">
+                <p><b>Address:</b> 224 9th Main Jayanagar Bangalore Karnataka  </p>
+                <p><b>Mail:</b> : elonmusk214@gmail.com</p>
+                <p><b>Phone:</b> : +919696969696</p>
+                <p><b>Web:</b> : www.momsbakery.com</p>
+
+            </div>
+            <div class="container">
+                <form  onsubmit = "sendEmail(); reset(); return false;" method="post">
+                    <div class="formdesign" id="name">
+                        Name:<input type="text" id="fname" name="fname" placeholder="Your name.."><span class="formerror"><b></b></span>
+                    </div>
+
+                    <div class="formdesign" id="email">
+                        Email:<input type="text" id="fname" name="femail" placeholder="Your name.."><span class="formerror"><b></b></span>
+                    </div>
+
+                    <div class="formdesign" id="phone">
+                        Phone:<input type="text" id="fname" name="fphone" placeholder="Your name.."><span class="formerror"><b></b></span>
+                    </div>
+
+                    <div class="formdesign" id="address">
+                       Address:<input type="text" id="fname" name="faddress" placeholder="Your name.."><span class="formerror"><b></b></span>
+                    </div>
+
+                    <div class="formdesign" id="item">
+                        Item:<input type="text" id="fname" name="fitem" placeholder="Your name.."><span class="formerror"><b></b></span>
+                     </div>
+      
+        
+              
+                  <input class="but" type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer-main">
+        <div class="footer">
+            <div class="img">
+                <img src="image/MOMS BAKERY Logo - Original - 5000x5000 (6) 1.png" alt="">
+            </div>
+            <div class="link">
+
+                <ul class="footer-link">
+                    <h5 style="color:white">Quick Link</h5>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="social">
+                <h5 style="color:white">Social Links</h5>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <p style="color: brown;">Copyright ©
+            <script>document.write(new Date().getFullYear());</script> Moms Bakery. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="app.js"></script>
+    <!-- FooterSection End -->
+</body>
+
+</html>
